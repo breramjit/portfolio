@@ -5,8 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BREVERSE</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <div>
+                <img src="images/breverse.png" alt="breverse-logo" class="logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section-home">
+            <div>
+                <h1 class="welcome">WELCOME TO BREVERSE</h1>
+            </div>
+            <div class="home-images">
+                <picture class="necklace-one">
+                    <source srcset="images/onenecklace-desktop-261.jpg"
+                            media="(min-width:768px)"/> 
+
+                    <source srcset="images/onenecklace-mobile-190.jpg"
+                            media="(max-width:767px)"/>
+                    
+                    <img src="images/onenecklace.jpg" alt="one-necklace">
+                </picture>
+                <picture class="necklace-two">
+                    <source srcset="images/twonecklace-desktop-261.jpg"
+                            media="(min-width:768px)"/> 
+
+                    <source srcset="images/twonecklace-mobile-190.jpg"
+                            media="(max-width:767px)"/>
+                    
+                    <img src="images/twonecklace.jpg" alt="one-necklace">
+                </picture> <!--images give a nice overview of what the point of the website is, and what the site is about-->           
+            </div>
+            <p class="home-text">
+                Take a step into my universe where I create unique and handmade beaded jewelry. 
+            </p> <!--tagline-->
+            <div>
+                <img src="images/necklaces-403.jpg" alt="multiple-necklaces" class="necklaces">
+            </div> <!--this image will only be visible on desktop view (768px and above)-->
+        </section> <!--end section home-->
+    </main>
+
+    <footer>
+        <section>
+            <div>
+                <p class="footer-contact">
+                    Phone : 101-222-7373
+                </p>
+                <p class="footer-contact">
+                    Email : breramjit@breverse.com
+                </p>
+                </div>
+            <div>
+                <p class="footer-copyright">
+                    © Copyright BREVERSE, 2022 | All images used are my own
+                </p>
+            </div>
+        </section>
+    </footer>
 </body>
 </html>
