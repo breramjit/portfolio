@@ -70,7 +70,7 @@ h1 {
     margin-left: 36px;
     margin-right: 36px;
     margin-bottom: 16px;
-    padding-top: 17.5px;
+    padding-top: 23px;
     text-align: center;
 }
 h3 {
@@ -167,4 +167,67 @@ footer {
 }
 .footer-contact {
     font-size: 10px;
+}
+
+/*=============== DESKTOP STYLES ===============*/
+
+@media screen and (min-width: 768px) {
+    /*===== NAV SECTION=====*/
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    /*===== HOME SECTION =====*/
+    h1 {
+        font-size: 50px;
+    }
+    .home-text {
+        font-size: 22px;
+        margin-left: 36px;
+        margin-right: 36px;
+        text-align: center;
+    }
+    .home-images {
+        padding-top: 50px;
+    }
+    .heart-image {
+        padding-right: 42.5px;
+    }
+    .bre-image {
+        padding-left: 42.5px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    .contact-text {
+        font-size: 20px;
+    }
+    .tiktok-text {
+        font-size: 20px;
+    }
+
+    /*===== ABOUT SECTION =====*/
+    h2 {
+        font-size: 36px;
+    }
+    .about-text {
+        font-size: 20px;
+    }
+    .creator-design-image {
+        padding-top: 22px;
+        padding-bottom: 22px;
+    }
+
+     /*===== PORTFOLIO SECTION =====*/
+     .portfolio-text {
+         font-size: 20px;
+     }
+
+     /*===== FOOTER SECTION =====*/
+     .footer-contact {
+         font-size: 14px;
+     }
+     .footer-copyright {
+         font-size: 14px;
+     }
 }
