@@ -98,6 +98,59 @@ h3 {
     padding-bottom: 32px;
 }
 
+/*===== ABOUT SECTION =====*/
+h2 {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 15px;
+    padding-top: 36px;
+}
+.about-text {
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 36px;
+    margin-right: 36px;
+}
+.creator-design-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/*===== PORTFOLIO SECTION =====*/
+.portfolio-text {
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 36px;
+    margin-right: 36px;
+}
+.coffee-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.bakery-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.feedback-text {
+    text-align: center;
+    margin-left: 36px;
+    margin-right: 36px;
+    padding-top: 16px;
+    padding-bottom: 14px;
+}
+
 /*===== FOOTER SECTION =====*/
 footer {
     background-color: #FFC4D8;
