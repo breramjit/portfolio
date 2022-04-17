@@ -3,3 +3,58 @@ body {
     font-family: 'Lato', sans-serif;
     background-color: #FFF3F7;
 }
+
+/*===== HEADER SECTION =====*/
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    padding-bottom: 45px;
+}
+
+/*===== NAV SECTION =====*/
+nav ul {
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+}
+nav ul li {
+    flex: 1;
+}
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #DD2013;
+    margin-left: 36px;
+    margin-right: 36px;
+    padding-right: 36px;
+    font-size: 14px;
+}
+.nav-links {
+    background-color: #FFC4D8;
+    padding: 20px;
+    width: 100%;
+}
+/*===== NAV ANIMATION =====*/
+nav a:hover {
+    color:#FFF3F7;
+    transition: transform 2s;
+}
+/*===== END NAV ANIMATION =====*/
+
+/*===== HOME SECTION =====*/
+h1 {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 15px;
+    padding-top: 36px;
+}
+.home-images {
+    display: block;
+    margin-left: auto;
+    margin right: auto;
+    text-align: center;
+}
