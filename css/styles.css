@@ -1,7 +1,7 @@
 /* STYLES THAT AFFECT: HOME, ABOUT, PORTFOLIO */
 body {
     font-family: 'Lato', sans-serif;
-    background-color: #FFF3F7;
+    background-color: #FAFFFB;
 }
 
 /*===== HEADER SECTION =====*/
@@ -25,27 +25,27 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     font-weight: bold;
-    color: #DD2013;
+    color: #F74A82;
     margin-left: 36px;
     margin-right: 36px;
     padding-right: 36px;
     font-size: 14px;
 }
 .nav-links {
-    background-color: #FFC4D8;
+    background-color: #D8E9DB;
     padding: 20px;
     width: 100%;
 }
 /*===== NAV ANIMATION =====*/
 nav a:hover {
-    color:#FFF3F7;
+    color: #6FAE7B;
     transition: transform 2s;
 }
 /*===== END NAV ANIMATION =====*/
 
 /*===== HOME SECTION =====*/
 h1 {
-    color: black;
+    color: #6FAE7B;
     text-align: center;
     font-weight: bold;
     font-size: 24px;
@@ -74,7 +74,7 @@ h1 {
     text-align: center;
 }
 h3 {
-    color: #FD74A0;
+    color: #6FAE7B;
     font-weight: bold;
     font-size: 20px;
     text-align: center;
@@ -100,7 +100,7 @@ h3 {
 
 /*===== ABOUT SECTION =====*/
 h2 {
-    color: black;
+    color: #6FAE7B;
     text-align: center;
     font-weight: bold;
     font-size: 24px;
@@ -153,8 +153,8 @@ h2 {
 
 /*===== FOOTER SECTION =====*/
 footer {
-    background-color: #FFC4D8;
-    color: #DD2013;
+    background-color: #D8E9DB;
+    color: #F74A82;
     padding: 20px;
     text-align: center;
     font-weight: bold;
