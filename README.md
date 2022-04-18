@@ -12,5 +12,5 @@ All images used are created/taken by me.
 - [Centering Two Images](https://stackoverflow.com/questions/11819417/css-center-two-images-in-css-side-by-side)
 - [Responsive Images](https://imdac.github.io/modules/html/responsive-images/#preamble)
 - [Flex Nav Bar](https://imdac.github.io/modules/css/css-flexbox/flex-recap.html#the-container)
-[Google Font Used](https://fonts.google.com/specimen/Lato)
+- [Google Font Used](https://fonts.google.com/specimen/Lato)
 
